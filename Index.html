@@ -22,16 +22,69 @@
    overflow: hidden;
 }
 
+.img-jumbo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+     background-size: cover;
+     height: 100vh;
+}
 
+
+.navigation{
+    margin-bottom:80px;
+}
  </style>
 
 
 </head>
 <body>
  
-  
-  
+  <!-- Jumbotron using Bootsrap -->
+   
 
+
+
+  
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="margin:0px;">
+      
+    <a href="" class="navbar-brand">Sonu Sharma</a>
+ 
+        
+   <div class="collapse navbar-collapse">
+      
+    <ul class="navbar-nav ml-auto ">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Service</a>
+         
+            <ul class="dropdown-menu">
+                <li class="dropdown-item"><a class="nav-link" href="#"></a> Link-1</li>
+                <li class="dropdown-item"><a class="nav-link" href="#"></a> Link-2</li>
+                <li class="dropdown-item"><a class="nav-link" href="#"></a> Link-3</li>
+                <li class="dropdown-item"><a class="nav-link" href="#"></a> Link-4</li>
+                <li class="dropdown-item"><a class="nav-link" href="#"></a> Link-5</li>
+            </ul>
+
+             
+        </li>
+      
+        <li class="nav-item"><a class="nav-link" href="#">Contect</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+
+    </ul>
+</div>
+
+</nav>
+
+  <div class=" jumbotron img-jumbo" style="margin-bottom:200px;">
+
+    
+     <div class="container" style="margin-top:100px ;"> 
+         
+            <h1 class="text-white display-2">Hey I'm Sonu Sharma </h1>
+            <p class="text-white"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat laboriosam expedita assumenda eius culpa molestias eum nobis, illum error commodi?</p>
+            <div class="btn btn-success">Like</div>
+        </div>
+      </div>
+   
   
     <h1 class="display-4 text-center text-danger" style="margin:30px;">Responsive Gallery using bootstrap</h1>
   <div class="container" id="gallery-box">
@@ -127,7 +180,119 @@
     </form>
     </div>
       
-       <!-- pagination using Bootstrap-4-- -->
+      <!-- Jumbotron using Bootstrap -->
+    
+      <div class="container" style="margin-top:100px ;">
+          <div class=" jumbotron">
+            <h1 class="display-3">Hey I'm Sonu Sharma </h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="btn btn-success">Like</div>
+        </div>
+      </div>
+    
+      <!-- Progress-Bar with Bootstrap -->
+         
+      <h2 class="display-4 text-center text-info" > Technical-Skills</h2>
+
+      <div class="container" style="margin-top:40px;">
+            <div class="progress" style="width: 700px; height: 50px;">
+                <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated text-white" role="progressbar" style="width: 25%;"
+                    aria-valuenow="25" aria-valuemin="" aria-valuemax="100">JavaScript</div>
+            </div>
+            
+            <div class="progress" style="width: 700px; height: 50px;">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%;"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">C++</div>
+                </div>
+                <div class="progress" style="width: 700px; height: 50px;">
+                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%;"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">C</div>
+                    </div>
+            
+            
+            </div>
+            
+            <!-- Simple list ..... -->
+
+
+            <h2 class="display-4 text-center text-info" > Technical-Skills</h2>
+  <ul class="list-group" style="width: 400px; margin-top:50px; margin-left:35%">
+      <li class="list-group-item active ">Active item</li>
+      <li class="list-group-item list-group-item-action">Item</li>
+      <li class="list-group-item disabled">Disabled item</li>
+  </ul>
+    
+    
+    <!-- Bradge in Bootstrap ..-- -->
+    
+    <h1 class=" display-3 text-center" style="margin-top:30px;"><span class="badge badge-primary ">Example</span>
+    </h1>
+    <h1 class=" display-3 text-center"><span class="badge badge-primary badge-pill">Example</span>
+    </h1>
+     
+    <!-- Button with Bootsrap -->
+    <button class="btn btn-outline-primary btn-lg" style="margin-left:50%; margin-top:40px;"> click-me</button>
+    
+        <!-- Button-group with Bootstrap -->
+
+        <div class="btn-group btn-group-lg"style="margin-top:30px;"> 
+            <div class="btn btn-primary">Click-me</div>
+            <div class="btn btn-primary">Click-me</div>
+            <div class="btn btn-primary">Click-me</div>
+            <div class="btn btn-primary">Click-me</div>
+        </div>
+
+   <!-- Tab using Bootstrap -->
+     
+   
+   <div class="container" >
+                <ul class="nav nav-tabs">
+                    <li class="nav-item dropdown" ><a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="#">click-1</a>
+                  
+                   <div class=" dropdown-menu">
+                       <a class=" dropdown-item" href="#">Notificaion-1</a>
+                       <a class=" dropdown-item" href="#">Notificaion-2</a>
+                       <a class=" dropdown-item" href="#">Notificaion-3</a>
+                       <a class=" dropdown-item" href="#">Notificaion-4</a>
+                   </div>
+                 
+                 
+                 </li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#noti" data-toggle="tab">About</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#massege" data-toggle="tab">Massage</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-toggle="tab">click-4</a> </li>
+                </ul>
+            </div>
+     
+     
+              <!-- Tabs for data-toggle -->
+                   <!---TAb-1  -->
+             
+              <div class="container tab-content">
+                       <div class="tab-pane" id="noti">
+                           <h1 class="display-3 text-center text-success">This is about myself.....</h1>
+                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id modi corporis impedit excepturi quos, repudiandae nemo! Unde dolorem obcaecati quod architecto necessitatibus quibusdam, delectus sint fuga 
+                                 sapiente, deleniti nisi veniam corporis 
+                                 debitis iure illum, consequuntur iusto nulla magnam distinctio aut eveniet laborum. Atque excepturi, fugit similique facilis natus autem et consequuntur iusto quasi quos, suscipit quibusdam optio. Soluta, aperiam exercitationem hic dolorem ex odio tenetur totam odit eligendi labore cupiditate.</p>
+                                   <h1 class="display-2 text-danger" > Hey I'm Sonu Sharma</h1>
+                        
+                        
+                             </div>
+                   
+     
+       <!---TAb-2  -->
+             <div class="tab-pane"  id="massege">
+                 <h1 class="display-3 text-center text-success">This is about Massege.....</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id modi corporis impedit excepturi quos, repudiandae nemo! Unde dolorem obcaecati quod architecto necessitatibus quibusdam, delectus sint fuga 
+                       sapiente, deleniti nisi veniam corporis 
+                       debitis iure illum, consequuntur iusto nulla magnam distinctio aut eveniet laborum. Atque excepturi, fugit similique facilis natus autem et consequuntur iusto quasi quos, suscipit quibusdam optio. Soluta, aperiam exercitationem hic dolorem ex odio tenetur totam odit eligendi labore cupiditate.</p>
+                        <h3 class="text-primary display-3"> Hey You have no Massege right now</h3>
+                
+                     </div>
+         </div>
+
+    <!-- pagination using Bootstrap-4-- -->
     <div style="margin-top:100px; margin-left: 500px;">
        <div class="container">
          <ul class="pagination">
@@ -146,5 +311,9 @@
        </div>
     </div>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
